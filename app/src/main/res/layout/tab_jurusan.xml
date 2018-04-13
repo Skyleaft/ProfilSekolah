@@ -1,0 +1,104 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.mzstudio.profilsekolah.TabJurusan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <Spinner
+            android:id="@+id/sp_sekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/txt_kdjurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Jurusan"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/txt_nmjurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Jurusan"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/txt_ket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Keterangan"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/txt_tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tahun"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/sp_kurikulum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/txt_akreditasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Akreditasi"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

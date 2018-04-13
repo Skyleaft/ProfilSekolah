@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mzstudio.profilsekolah.FragmentPencarian">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.codecrafters.tableview.TableView
+        xmlns:table="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/table_sklh"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        table:tableView_headerColor="@color/default_indicator_color_selected"
+        table:tableView_headerElevation="10"
+        table:tableView_columnCount="4" />
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_daerah"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Data Daerah" />
+        <item
+            android:id="@+id/nav_sekolah"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Data Sekolah" />
+        <item
+            android:id="@+id/nav_guru"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Guru" />
+        <item
+            android:id="@+id/nav_siswa"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Siswa" />
+
+        <item
+            android:id="@+id/nav_pencarian"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Cari Sekolah" />
+    </group>
+
+
+</menu>
